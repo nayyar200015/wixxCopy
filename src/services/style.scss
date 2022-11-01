@@ -1,0 +1,49 @@
+@import '../Variables';
+
+.section3 {
+    // @include border(5px, red);
+
+    .container {
+        // @include border(4px, green);
+        min-width: 90%;
+
+        .row {
+            // @include border(3px, rgb(153, 102, 6));
+            // height: 4rem;
+
+            .parts {
+                @include border(1px, black);
+                display: grid;
+                place-items: center;
+
+                h1,
+                p,
+                a {
+                    // @include border(2px, black);
+                    margin: 1rem 0;
+                }
+                p{
+                    width: 60%;
+                }
+                a {
+                    background-color: $theme-color;
+                    color: #fff;
+                    height: 4rem;
+                    font-weight: bold;
+                    border: 0.1rem solid $theme-color;
+                    text-align: center;
+                    line-height: 4rem;
+                    text-decoration: none;
+                    padding: 0 1.2rem;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: $theme-color;
+                        font-weight: bold;
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@mixin border($num, $abc) {
+    border: $num solid $abc;
+}
+
+$theme-color: rgb(12, 60, 96);
+$dark-theme-color: rgb(7, 33, 54);

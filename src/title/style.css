@@ -1,0 +1,60 @@
+.section2 {
+  position: relative;
+  height: 70vh;
+  background: url("luca-bravo-ESkw2ayO2As-unsplash.jpg") no-repeat 0 0;
+  background-size: 250%;
+  background-position: center;
+}
+.section2 .container {
+  height: 25vh;
+  width: 50%;
+  background-color: #fff;
+}
+.section2 .container .row .parts:nth-of-type(2) {
+  font-size: 3rem;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.section2 .container .row .parts:nth-of-type(3) a.bt {
+  display: inline-block;
+  width: 10rem;
+  height: 3rem;
+  line-height: 2.3rem;
+  border: 1px solid rgb(12, 60, 96);
+  color: rgb(12, 60, 96);
+  text-decoration: none;
+  padding: 0.3rem 0.4rem;
+}
+.section2 .container .row .parts:nth-of-type(3) a.bt:hover {
+  background-color: rgb(12, 60, 96);
+  color: white;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 494px) {
+  .section2 .container .row .parts:nth-of-type(1) h3 {
+    font-size: 1.2rem;
+  }
+  .section2 .container .row .parts:nth-of-type(2) {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 494px) and (max-width: 690px) {
+  .section2 .container .row .parts:nth-of-type(1) h3 {
+    font-size: 1.4rem;
+  }
+  .section2 .container .row .parts:nth-of-type(2) {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 723px) {
+  .section2 {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 1032px) {
+  .section2 .container {
+    width: 75%;
+    height: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

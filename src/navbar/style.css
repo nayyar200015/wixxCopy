@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.section1 {
+  background-color: rgb(12, 60, 96);
+}
+.section1 .container {
+  min-width: 95%;
+}
+.section1 .container .row .col nav a.navbar-brand {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.section1 .container .row .col nav #mynavbar ul li a {
+  color: #fff;
+}
+.section1 .container .row .col nav #mynavbar ul li a:hover {
+  color: rgb(128, 185, 246);
+}
+
+@media screen and (min-width: 768px) and (max-width: 812px) {
+  .section1 .container .row .col nav #mynavbar ul li a {
+    padding-right: 0.1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
